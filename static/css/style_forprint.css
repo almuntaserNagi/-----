@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../font/Kufam-Bold.ttf') format('truetype');
+    font-weight: bold;
+    
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'second';
+    src: url('../Tajawal-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    /* background-color: #FFE6C9; */
+    padding: 0;
+    margin: 5px;
+
+    box-sizing: border-box;
+    /* font-family: 'MyFont', sans-serif; */
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 5px;
+    padding: 5px;
+}
+.main-containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+    width: 1754px;
+    padding: 20px ;
+    overflow: hidden; 
+    /* Add this line to hide the scrollbar */
+   
+}
+.scrollable-content {
+    position: relative;
+    max-height: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 10px 20px;
+    margin: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 20px 0;
+    box-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+  }
+  .scrollable-content::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.scrollbar-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none; /* Prevents the overlay from blocking scroll events */
+     /* Adjust the z-index to make sure the overlay appears on top */
+    
+  }
+  .scrollbar-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: fit; /* Ensures the image covers the entire overlay */
+  }
+.headerr {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: 4px solid black ;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.header-left_element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-middle_element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-middle_element img {
+    width: 150px;
+}
+
+.header-right_element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+.bodyy {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    border: 4px solid black ;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 40px;
+    
+}
+
+h1{
+    line-height: 2.0;
+   
+}
+ 

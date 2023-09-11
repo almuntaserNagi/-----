@@ -1,0 +1,45 @@
+.btn1 {
+    margin: 13px 0px 5px 10px;
+    width: 90%;
+    max-width: 500px;
+    height: 34px;
+    color: white;
+    background: linear-gradient(90deg, rgba(23, 72, 132, 1) 0%, rgba(57, 149, 243, 1) 100%);
+    border: 0px;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: auto;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.btn1:hover {
+    transform: scale(1.02);
+    /* transform: rotate(3deg); */
+}
+
+.btn1:active {
+    box-shadow: 3px 3px 4px rgba(14, 17, 205, 0.3);
+}
+.btn1[for] {
+    padding: 7px;
+}
+@media all and (max-width: 500px) {
+
+    
+     /* .card {
+        background: red;
+        padding: 0%;
+        width: 100%;
+        height: 1%;
+        font-size: 1px;
+     } */
+     .btn1[for] {
+        padding-bottom: 1px;
+        /* height: 1%; */
+        font-size: 1%; 
+        width: auto;
+        border-radius: 5%;
+    }
+  }

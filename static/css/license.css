@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../font/Kufam-Bold.ttf') format('truetype');
+    font-weight: bold;
+    
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'second';
+    src: url('../Tajawal-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    /* background-color: #FFE6C9; */
+    padding: 0;
+    margin: 5px;
+
+    box-sizing: border-box;
+    font-family: 'MyFont', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 5px;
+    padding: 5px;
+
+}
+.main-containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    /* width: 930px; */
+    padding: 20px ;
+    /* margin: 15px; */
+    /* padding: 40px; */
+    width: 1115px;
+
+    
+}
+.vv{
+   border:2px solid red;
+   width:1115px;  
+
+}
+
+ 
+.headerr {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: 4px solid black ;
+    border-radius: 20px;
+    /* padding: 20px;
+    margin: 10px; */
+    width: 100%;
+}
+
+
+.header-left_element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-middle_element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-middle_element img {
+    width: 150px;
+}
+
+.header-right_element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    justify-content: center;
+    /* gap: 15px; */
+}
+
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+.bodyy {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    border: 4px solid black ;
+    border-radius: 20px;
+    /* margin-left: 10.5%; */
+    /* padding: 40px; */
+    width: 100%;
+    /* height: 200px; */
+    
+}
+span{
+    color: rgb(54, 150, 246);
+}
+h2{
+color: red;
+padding: 30px 30px ;
+margin:  3px 30px 30px;
+align-self: flex-end;
+justify-content: center;
+border: 10px double black ;
+width: 70%;
+}
+h3{
+    margin: 0 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+    border: 1px solid black; 
+   margin: 0px 10px 0px 0px;
+
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: start;
+  }
+
+  th {
+    background-color: #f00808;
+  }
+ .bodyy lable{
+    border: 1px solid black;
+ }
+ .cell{
+    color: white;
+    background: rgb(15, 149, 190);
+ }
+
+ .user-img {
+    position: absolute;
+    top: 16.5%;
+    right: 75%;
+
+  }

@@ -1,0 +1,84 @@
+   /* Style for the modal */
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+
+  /* Style for the modal content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 300px; /* Adjust the width as desired */
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px rgba(14, 17, 205, 0.3); 
+   
+  
+  
+  }
+
+  /* Style for the message */
+  .modal-content  p {
+    font-size: 12px;
+  }
+
+  /* Style for the buttons */
+  .modal-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgba(23, 72, 132, 1) 0%, rgba(57, 149, 243, 1) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .modal-content button:hover {
+    background-color: #45a049;
+  }
+.success-container {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+padding: 20px;
+
+}
+
+.success-icon-container {
+margin-right: 20px;
+
+}
+
+.success-icon {
+width: 50px;
+height: 50px;
+}
+
+.circle {
+fill: #0615e6;
+}
+
+.path {
+stroke: #fff;
+animation: drawPath 1s ease-in-out forwards;
+}
+
+@keyframes drawPath {
+0% {
+  stroke-dashoffset: 170;
+}
+100% {
+  stroke-dashoffset: 0;
+}
+}

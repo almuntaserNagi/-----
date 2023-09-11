@@ -1,0 +1,262 @@
+.hover-a {
+    color: white;
+
+    font-size: 16px;
+    border: none;
+    transition: all 0.55s ease;
+}
+
+.hover-a:hover {
+    padding: 16px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+
+}
+
+.hover-a.hover-a:click {
+    padding: 16px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+
+}
+
+.h4-order {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 0px 20px;
+    margin: 10px 0px;
+
+}
+
+a {
+    color: white;
+}
+.head{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 400px;
+}
+
+.logo {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+
+    
+
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+
+
+
+
+.main-nav {
+    padding-bottom: 6px;
+    /* align-self: center; */
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    flex: 1;
+    gap: 43px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+}
+
+.logo img {
+    margin: 30px 0px;
+    width: 100px;
+    height: 100px;
+}
+header button {
+    position: relative;
+    background: #68d6e9;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+  }
+  
+  header button:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    animation: box 3s infinite;
+  }
+  
+  header button::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #1a1a2e;
+  }
+  
+  header button span {
+    position: relative;
+    z-index: 1;
+  }
+  header button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  header button i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 80%;
+    top: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+  }
+  
+  header button:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+  }
+  
+  header button i::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    bottom: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+  }
+  
+  header button:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+  }
+
+/* .hover-a {
+    color: white;
+
+    font-size: 16px;
+    border: none;
+    transition: all 0.55s ease;
+}
+
+.hover-a:hover {
+    padding: 16px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+
+}
+
+.hover-a.hover-a:click {
+    padding: 16px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+
+}
+
+.h4-order {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 0px 20px;
+    margin: 10px 0px;
+
+}
+
+a {
+    color: white;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+
+
+
+
+.main-nav {
+    padding-bottom: 6px;
+    /* align-self: center; 
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    flex: 1;
+    gap: 43px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+}
+
+.logo img {
+    margin: 30px 0px;
+    width: 100px;
+    height: 100px;
+}
+ */
